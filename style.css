@@ -1,74 +1,73 @@
+/* 기본 스타일 */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa;
-    text-align: center;
-    color: #fff;
+    line-height: 1.6;
 }
 
+/* 헤더 스타일 */
 .main-header {
-    background-color: #343a40;
+    background: #333 url('background-image.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
     padding: 20px 0;
 }
 
-.main-header h1 {
+.header-content h1 {
     font-size: 2.5rem;
-}
-
-.main-header p {
-    font-size: 1rem;
-    margin-top: 10px;
-}
-
-.main-visual {
-    position: relative;
-    height: 60vh;
-    background: url('background-image.jpg') center/cover no-repeat;
-}
-
-.image-overlay {
-    background: rgba(0, 0, 0, 0.5);
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.image-overlay .content {
-    color: #fff;
-    text-align: center;
-}
-
-.image-overlay h2 {
-    font-size: 3rem;
-}
-
-.category-nav {
-    background-color: #007bff;
-    padding: 10px 0;
-    display: flex;
-    justify-content: center;
     margin: 0;
 }
 
-.category {
-    text-decoration: none;
-    color: white;
+.header-content p {
+    margin: 10px 0 20px;
+    font-size: 1.2rem;
+}
+
+/* 네비게이션 스타일 */
+.nav-bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background: #444;
+}
+
+.nav-bar li {
     margin: 0 15px;
-    font-size: 1rem;
-    padding: 5px 10px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
 }
 
-.category:hover {
-    background-color: #0056b3;
-}
-
-.main-footer {
-    background-color: #343a40;
-    padding: 15px 0;
-    font-size: 0.9rem;
+.nav-bar a {
     color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px;
+    display: block;
+}
+
+.nav-bar a:hover {
+    background: #555;
+    border-radius: 5px;
+}
+
+/* 섹션 스타일 */
+.section {
+    padding: 50px;
+    text-align: center;
+}
+
+.main-section {
+    padding: 100px 20px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* 푸터 스타일 */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
 }
