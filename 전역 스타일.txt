@@ -1,0 +1,79 @@
+/* 전역 스타일 */
+body {
+    font-family: 'Arial', sans-serif; /* 기본 글꼴 */
+    margin: 0; /* 페이지 마진 제거 */
+    padding: 0; /* 페이지 패딩 제거 */
+    background-color: #f8f9fa; /* 배경색 설정 */
+    text-align: center; /* 텍스트 중앙 정렬 */
+    color: #fff; /* 텍스트 색상 흰색 */
+}
+
+/* 헤더 스타일 */
+.main-header {
+    background-color: #343a40; /* 헤더 배경 색 */
+    padding: 20px 0; /* 헤더 내부 여백 */
+}
+
+.main-header h1 {
+    font-size: 2.5rem; /* 메인 제목 크기 */
+}
+
+.main-header p {
+    font-size: 1rem; /* 부제 크기 */
+    margin-top: 10px; /* 상단 여백 */
+}
+
+/* 메인 이미지 섹션 */
+.main-visual {
+    position: relative; /* 이미지 위에 텍스트 표시 */
+    height: 60vh; /* 섹션 높이 */
+    background: url('background-image.jpg') center/cover no-repeat; /* 배경 이미지 */
+}
+
+.image-overlay {
+    background: rgba(0, 0, 0, 0.5); /* 이미지 위 검은색 반투명 레이어 */
+    height: 100%; /* 전체 영역 채우기 */
+    display: flex; /* 중앙 정렬 */
+    justify-content: center; /* 가로 중앙 */
+    align-items: center; /* 세로 중앙 */
+}
+
+.image-overlay .content {
+    color: #fff; /* 텍스트 흰색 */
+    text-align: center; /* 중앙 정렬 */
+}
+
+.image-overlay h2 {
+    font-size: 3rem; /* 섹션 제목 크기 */
+}
+
+/* 네비게이션 메뉴 */
+.category-nav {
+    background-color: #007bff; /* 네비게이션 배경색 */
+    padding: 10px 0; /* 내부 여백 */
+    display: flex; /* 가로 정렬 */
+    justify-content: center; /* 중앙 정렬 */
+    margin: 0; /* 기본 마진 제거 */
+}
+
+.category {
+    text-decoration: none; /* 밑줄 제거 */
+    color: white; /* 텍스트 흰색 */
+    margin: 0 15px; /* 메뉴 간 간격 */
+    font-size: 1rem; /* 메뉴 글자 크기 */
+    padding: 5px 10px; /* 내부 여백 */
+    border-radius: 5px; /* 둥근 모서리 */
+    transition: background-color 0.3s; /* 배경색 전환 효과 */
+}
+
+.category:hover {
+    background-color: #0056b3; /* 호버 효과 */
+}
+
+/* 푸터 스타일 */
+.main-footer {
+    background-color: #343a40; /* 푸터 배경 색상 */
+    padding: 15px 0; /* 내부 여백 */
+    font-size: 0.9rem; /* 텍스트 크기 */
+    color: white; /* 텍스트 색상 */
+}

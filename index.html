@@ -1,47 +1,38 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Druken NPC</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-        }
-        main {
-            padding: 20px;
-            text-align: center;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
+    <meta charset="UTF-8"> <!-- 문자 인코딩 설정 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 반응형 설정 -->
+    <title>NPC Inspired</title> <!-- 웹페이지 제목 -->
+    <link rel="stylesheet" href="style.css"> <!-- 외부 스타일 시트 연결 -->
 </head>
 <body>
-    <header>
-        <h1>NPC홈페이지에 오신 것을 환영합니다.</h1>
+    <!-- 상단 헤더 -->
+    <header class="main-header">
+        <h1>BINPC</h1> <!-- 메인 타이틀 -->
+        <p>Apply for drinking</p> <!-- 부제목 -->
     </header>
-    <main>
-        <h2>안녕하세요! 여기는 나의 GitHub Pages 홈페이지입니다.</h2>
-        <img src="https://via.placeholder.com/600x400" alt="이미지 예시">
-    </main>
-    <footer>
-        <p>&copy; BeomIL NPC </p>
+
+    <!-- 메인 이미지 배경 -->
+    <section class="main-visual">
+        <div class="image-overlay">
+            <div class="content">
+                <h2>HOME</h2> <!-- 섹션 제목 -->
+                <p>Explore our services and more...</p> <!-- 설명 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 네비게이션 메뉴 -->
+    <nav class="category-nav">
+        <a href="#about" class="category">ABOUT</a> <!-- About 링크 -->
+        <a href="#services" class="category">APPLY</a> <!-- Services 링크 -->
+        <a href="#contact" class="category">CONTACT</a> <!-- Contact 링크 -->
+    </nav>
+
+    <!-- 추가 섹션 -->
+    <footer class="main-footer">
+        <p>&copy; 2025 NPC Inspired. All rights reserved.</p> <!-- 저작권 정보 -->
     </footer>
 </body>
 </html>
